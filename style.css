@@ -1,0 +1,388 @@
+/* ==============================================================
+common style
+================================================================*/
+
+body {
+    color: #666666;
+    font-family: georgia, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 9px;
+    margin-top: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 96%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================================================================
+top header area
+==================================================================*/
+
+.header_area {
+    width: 100%;
+    clear: both;
+}
+
+#top_header_area {
+    background: #636562;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.inner_top_header {
+    overflow: hidden;
+}
+
+.mini_menu {
+    padding-top: 5px;
+    float: left;
+    width: 70%;
+}
+
+.mini_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.mini_menu ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.mini_menu ul li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.mini_menu ul li a:hover {
+    color: aqua;
+}
+
+.search_area {
+    float: right;
+    width: 30%;
+}
+
+.search_area form {
+    background: #fff;
+    border-radius: 10px;
+    float: right;
+    padding: 1%;
+    width: 96%;
+    max-width: 210px;
+}
+
+.search_area input {
+    border: 0px solid;
+    width: 75%;
+    padding: 1%;
+    float: left;
+    color: #000;
+}
+
+.search_area input[type="submit"] {
+    background: url(img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 23%;
+    cursor: pointer;
+}
+
+
+/* ===============================================================
+main header area
+================================================================*/
+
+#main_header_area {
+    width: 100%;
+    clear: both;
+    background-image: linear-gradient(45deg,rgb(144, 182, 240),rgb(65, 186, 158));
+}
+
+.inner_header {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.logo_area {
+    float: left;
+    width: 80px;
+    margin:0
+}
+
+.social_area {
+    float: right;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 0;
+}
+
+.social_area ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+}
+
+.social_area ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social_area ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+.social_area ul li a i {
+    background: #333333;
+    border-radius: 50px;
+    color: #fff;
+    width: 35px;
+    padding-top: 5px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.social_area ul li a:hover i {
+    background: #72ba1f;
+}
+
+.details{
+    display: inline-block;
+    margin-left: 400px;
+}
+
+/* ===============================================================
+main menu area
+================================================================*/
+
+#main_menu {
+    width: 100%;
+    clear: both;
+    margin: 0 0;
+    box-sizing: border-box;
+    padding: 10px;
+    background-image: url(img/background.jpg);
+
+}
+
+
+
+#main_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+#main_menu ul li {
+    display: inline-flex;
+    /* margin:10px; */
+    width: 150px;
+    position: relative;
+    
+}
+#main_menu ul li a{
+    margin-left:auto;
+    
+}
+
+
+#main_menu ul li a:hover{
+   color: rgb(9, 94, 179); 
+   box-shadow: 0 0 5px rgb(255, 204, 0),0 0 25px rgb(255, 204, 0),0 0 50px rgb(255, 196, 0),0 0 100px rgb(255, 196, 0),0 0 200px rgb(238, 255, 0);
+   border-radius: 5px;
+}
+
+#main_menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+}
+
+.cata{
+    text-decoration: none;
+}
+
+.catagories{
+margin-bottom: 15px;
+background-color: darkseagreen;
+}
+
+.exp{
+    padding-right: 20px;
+}
+
+.card_img{
+    width: 500px;
+}
+
+.cart-rio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-rio-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: #fdf8f8;
+}
+
+.card{
+    background-image: url(img/background.jpg);
+}
+
+.match{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(rgb(64, 71, 71),rgb(98, 100, 100));
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgb(53, 60, 60);
+    border-radius: 10px;
+
+}
+
+.card-text, .card-title{
+    color: #000;
+}
+
+.card-text1{
+    color: #9ee34e;
+}
+
+.cricket{
+    display: flex;
+}
+
+.virat{
+    height: 500px;
+    width: 900px;
+}
+
+.brand{
+   width: 600px;
+   color: #fff;
+   display: flex;
+    justify-content: center;
+   background-color: #000;
+}
+.text1{
+    margin-top: 190px;
+    width: 600;
+}
+
+.fix{
+    margin-bottom: 12px;
+}
+
+#signIn{
+    box-shadow: 5px 5px 15px green;
+    padding: 25px;
+    border-radius: 10px;
+    display: none;
+}
+.card-group{
+    margin-top: 15px;
+}
+
+.card-body2{
+    background-image: url(img/background.jpg);
+}
+
+.perform{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.flag{
+    width: 55px;
+    height: 35px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.except{
+    margin-top: 11px;
+}
+
+.select{
+    margin-top: 10px;
+    background-image: linear-gradient(45deg,skyblue,rgb(28, 148, 196));
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+#hoop{
+    background-color: rgb(128, 194, 235);
+    height: 50px;
+}
+
+.circular--square { 
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+    width: 250px;
+    height: 250px;
+
+}
+
+.badminton{
+    background-color: #3e3f3e;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px;
+    box-shadow: 13px 13px 5px gray;
+}
+
+.col-md-3{
+    display: flex;
+    justify-content: center;
+}
+.bgc{
+    background-color: #ecefef;
+}
+
+.bgc1{
+    background-image: linear-gradient(45deg,#dee0e0,#dafbfb);
+}.bgc2{
+    background-image: linear-gradient(45deg,#c7f7d1,#f7f4af);
+}
+.best{
+    width: 300px;
+    height: 400px;
+    border: 2px solid red;
+}
+.tile{
+    text-shadow: 5px -4px 4px rgb(68, 220, 240);
+}
